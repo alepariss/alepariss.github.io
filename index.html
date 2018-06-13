@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Parise</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+		<!-- Custom CSS -->
+		<link href="css/landing-page.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+		<!-- JS -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+
+
+	</head>
+	
+	<body style="background-color: #566270">
+		<div class="container" style="background-color: white">
+			
+			<div class="row">
+				<h1 class="text-center" style="color: black">Mercedes Benz</h1>
+				
+				<h2 class="text-center">Ieri & Oggi</h2>
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Mercedes Benz</h3>
+						<p>Mercedes-Benz è un marchio commerciale utilizzato da varie aziende nel tempo per contraddistinguere la produzione di autoveicoli. Il suo primo utilizzo risale al 1926 dopo la fusione della Daimler-Motoren-Gesellschaft (che dal 1902 utilizzava il nome Mercedes per le sue autovetture) con la Benz & Cie. e la conseguente creazione del gruppo Daimler-Benz. Il marchio è stato di proprietà della Daimler-Benz dal 1926 al 1998 e della DaimlerChrysler dal 1998 al 2007. Nel 2007, a seguito del disimpegno della Daimler dal gruppo nato dall'unione con la Chrysler, Mercedes-Benz è il marchio della nuova Daimler AG unitamente a Maybach, McLaren (fino al 2009) e Smart.
+
+						Le Mercedes-Benz sono famose in tutto il mondo come auto facilmente distinte dallo stemma presente sul cofano motore delle vetture, che rappresenta la stella a tre punte, segno distintivo della Daimler, circondata dalla corona d'alloro della Benz e dalle parole Mercedes-Benz sempre sulla corona esterna. Tra l'altro il nome in questione era stato utilizzato già nel 1924 per la creazione di una prima rete di vendita in comune tra le due aziende.
+
+						</p>
+				</div>
+				
+				<div class="col-md-6">
+					<img src="img/benz.jpg" class="img-responsive">
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+				<img src="img/amg.jpg" class="img-responsive">
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Modelli</h4>
+						<code>
+							<?php
+								$lista =[
+										'Classe A',
+										'Classe B',
+										'Classe C',
+										'Classe CLA',
+										'Classe CLS',
+										'Classe E',
+										'Classe G',
+										'Altro...',
+										];
+
+									foreach ($lista as $key =>$value){
+										print "<li>$value</li>";
+											}
+
+							?>
+					
+						</code>
+				</div>
+				
+				<div class="col-md-6">
+					<img src="img/interni.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		
+			<footer>
+				
+				<p class="text-center">&copy; Copyrigth</p>	
+
+					<div class="col-md-6">
+						<p class="text-center text-uppercase"><a href="https://www.mercedes-benz.it">Mercedes Benz</a></p>
+					</div>
+				
+					<div class="col-md-2 col-lg-offset-3">				
+						<a class="btn btn-primary text-center" href="Modelli.html" role="button">Pagina Successiva</a>
+					</div>
+				
+			</footer>
+	</body>
+</html>
